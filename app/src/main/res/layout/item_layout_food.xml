@@ -13,16 +13,17 @@
 
     <!-- Nama dan Deskripsi Makanan -->
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/cardview_shadow_start_color">
 
         <!-- Nama Makanan -->
         <TextView
             android:id="@+id/foodName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Food Name"
+            android:text="@string/food_label"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -33,7 +34,7 @@
             android:id="@+id/foodDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Description of the food."
+            android:text="@string/food_desc"
             android:textSize="14sp"
             android:textColor="#6D6D6D"/>
     </LinearLayout>

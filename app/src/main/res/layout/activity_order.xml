@@ -14,7 +14,7 @@
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Order Food"
+            android:text="@string/order_food"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
@@ -24,14 +24,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Food Name"
+            android:text="@string/food_label"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <TextView
             android:id="@+id/etFoodName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter food name - Get From List"
+            android:hint="@string/food_enter"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -39,14 +39,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Number of Servings"
+            android:text="@string/servings_label"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etServings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter number of servings"
+            android:hint="@string/servings_enter"
             android:inputType="number"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
@@ -55,14 +55,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ordering Name"
+            android:text="@string/order_name_label"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ordering name by"
+            android:hint="@string/order_name_enter"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -71,14 +71,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Additional Notes"
+            android:text="@string/notes_label"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
         <EditText
             android:id="@+id/etNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter any additional notes"
+            android:hint="@string/notes_enter"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -87,8 +87,8 @@
             android:id="@+id/btnOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Place Order"
-            android:textColor="@android:color/white"
+            android:text="@string/place_order"
+            android:textColor="@android:color/black"
             android:padding="12dp"/>
 
 </LinearLayout>
